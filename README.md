@@ -5,10 +5,9 @@ Functions include:
 # imwarp(markerImage, imageToEmbed, H, vector1)
 This function warps an image onto another within corner points using the homography matrix H 
 
-INPUT PARAMETERS : frame - image on which another image is to be warped 
-									imgToEmbed - image to be warped on frame 
-									H - Homography matrix 
-									cornerPts - corner points on frame in which warped image will be embed 
+INPUT PARAMETERS : frame - image on which another image is to be warped
+		   imgToEmbed - image to be warped on frame 									   	   H - Homography matrix 
+		   cornerPts - corner points on frame in which warped image will be embed 
 								
 OUTPUT PARAMETERS: warpedImg - final image after warping 
 
