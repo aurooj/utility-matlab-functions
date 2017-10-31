@@ -21,7 +21,7 @@ vector1= [ meanPoints(1,1) meanPoints(1,2);meanPoints(2,1) meanPoints(2,2); mean
 
 # getIOU(pred_map,gt_map,get_other_scores)
 
-this function computes IOU when given a prediction map and respective ground truth map. Both pred_map and gt_map should be 2D binary maps.
+this function computes IOU when given a prediction map and respective ground truth map for an image. Both pred_map and gt_map should be 2D binary maps. IOU is a common performance metric for evaluating results of Semantic Segmentation task.
 
 INPUT: 		 pred_map: a binary image prediction map
 %          gt_map: a binay image ground truth map
