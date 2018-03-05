@@ -26,7 +26,7 @@ end
  %compute false negatives
  FN_count = sum(gt_map(:)) - TP_count;   
  
- if(TP_count~=0 && FP_count~=0 && FN_count~=0) 
+ if((TP_count~=0 || FP_count~=0) || FN_count~=0) 
       IOU = (TP_count/(TP_count+FP_count+FN_count));
       if(get_other_scores)
           Precision = (TP_count/(TP_count+FP_count));
